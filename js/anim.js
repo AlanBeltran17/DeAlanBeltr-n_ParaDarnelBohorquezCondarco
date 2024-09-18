@@ -28,7 +28,7 @@ var lyricsData = [
   { text: "algo más para ti, para ti, para ti...", time: 179 },
   { text: "escribí esta canción, quiero que sepas que habla mi corazón.", time: 186 },
   { text: "Te Amo, bueno... Te QuieAmoDoroSeo.", time: 194 },
-  { text: "", time: 213 },
+
 ];
 
 // Animar las letras
