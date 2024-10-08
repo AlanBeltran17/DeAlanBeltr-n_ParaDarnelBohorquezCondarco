@@ -1,0 +1,28 @@
+/* Coloca los controles de audio en la parte inferior y los centra */
+.audio-container {
+    position: absolute; /* Coloca el contenedor en una posición específica */
+    bottom: -50px; /* Coloca el contenedor en la parte inferior de la página */
+    left: 50%; /* Centra el contenedor horizontalmente */
+    transform: translateX(-50%); /* Ajusta para centrar el contenedor */
+    z-index: 10; /* Ajusta el índice de apilamiento si es necesario */
+    display: flex; /* Utiliza Flexbox para alinear los controles verticalmente */
+    flex-direction: column; /* Alinea los elementos verticalmente */
+    align-items: center; /* Centra los controles horizontalmente dentro del contenedor */
+    padding: 10px; /* Espaciado interno */
+    background: rgba(0, 0, 0, 0.1); /* Fondo semi-transparente opcional */
+    border-radius: 5px; /* Bordes redondeados opcional */
+    width: 300px; /* Ancho fijo para el contenedor */
+    height: 100px; /* Altura fija para el contenedor (ajustar según sea necesario) */
+  }
+  
+  /* Ajusta el tamaño del audio si es necesario */
+  audio {
+    display: block;
+    width: 100%; /* Ajusta el ancho al contenedor */
+  }
+  
+  /* Personalización del panel de control del audio */
+  audio::-webkit-media-controls-panel {
+    background-color: #333; /* Cambia el color de fondo de los controles */
+  }
+  
